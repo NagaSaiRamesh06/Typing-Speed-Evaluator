@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TypeMaster Pro - Typing Speed Evaluation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#6366f1', // Indigo 500
+              secondary: '#10b981', // Emerald 500
+              dark: '#1e293b', // Slate 800
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['Fira Code', 'monospace'],
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      .font-mono {
+        font-family: 'Fira Code', monospace;
+      }
+      /* Custom scrollbar for aesthetic */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 4px;
+      }
+      .dark ::-webkit-scrollbar-thumb {
+        background: #475569;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "html2canvas": "https://aistudiocdn.com/html2canvas@^1.4.1",
+    "jspdf": "https://aistudiocdn.com/jspdf@^3.0.4"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50 text-slate-900 dark:bg-slate-900 dark:text-slate-100 transition-colors duration-200">
+    <div id="root"></div>
+  </body>
+</html>
